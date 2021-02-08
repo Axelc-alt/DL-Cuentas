@@ -55,3 +55,30 @@ aside {
     padding: 5px 0;
     margin: 0;
 }
+/*stilos para los icons whatsapp y messeger*/
+#app-messeger, #app-whatsapp {
+    position: fixed;
+    right: 24px;
+    bottom: 25px;
+    width: 60px;
+    z-index: 1000;
+    display: none;
+}
+
+#app-whatsapp {
+    bottom: 95px;
+    left: 24px;
+    display: block;
+}
+
+#app-messeger i, #app-whatsapp i {
+    font-size: 63px;
+}
+
+#app-whatsapp i {
+    color: #1ebea5;
+}
+
+#app-messeger i {
+    color: #0084ff;
+}
