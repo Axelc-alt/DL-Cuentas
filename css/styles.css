@@ -82,3 +82,13 @@ aside {
 #app-messeger i {
     color: #0084ff;
 }
+
+@media screen and (max-width: 766px) {
+    #fb-root{
+        display: none;
+    }
+
+    #app-messeger {
+        display: block;
+    }
+}
