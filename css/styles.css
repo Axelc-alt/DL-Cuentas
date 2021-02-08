@@ -82,14 +82,4 @@ aside {
 #app-messeger i {
     color: #0084ff;
 }
-
-@media only screen and (max-width: 375px) {
-    #fb-root{
-        display: none;
-    }
-
-    #app-messeger {
-        display: block;
-        z-index: 2000;
-    }
-}
+/*si ya está bien no se sigas moviendo dijo un sabio una vez*/
