@@ -1,3 +1,29 @@
 header {
-    background-color: rgb(149, 160, 111);
+    background-color: rgb(121, 204, 118);
+}
+.img{
+    height: 30px;
+
+}
+.container>h1 {
+    margin: 0;
+    padding: 10px;
+}
+/*main--------*/
+.main {
+    background-color: blue;
+}
+
+.main--p{
+    margin: 0;
+    padding: 0; 
+}
+/*aside--------*/
+aside {
+    background-color: red;
+}
+
+.aside--p {
+    margin: 0;
+    padding: 0; 
 }
