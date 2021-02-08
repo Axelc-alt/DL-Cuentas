@@ -83,7 +83,7 @@ aside {
     color: #0084ff;
 }
 
-@media screen and (max-width: 766px) {
+@media only screen and (max-width: 375px) {
     #fb-root{
         display: none;
     }
