@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(238, 220, 233);
+}
 header {
     background-color: rgb(121, 204, 118);
 }
@@ -9,12 +12,17 @@ header {
     margin: 0;
     padding: 10px;
 }
+
+h2 {
+    color: goldenrod;
+}
 /*main--------*/
 .main {
     background-color: #efefef;
 }
 #img-1 {
     margin-top: 10px;
+    margin-bottom: 10px;
     max-height: 600px;
 }
 .main--p1{
@@ -24,9 +32,24 @@ header {
     padding-left: 100px 5px;
     font-size: 13px;
 }
-
 .col-xs-12{
     text-align: center;
+}
+
+#separador {
+    background-color: rgb(213, 214, 167);
+}
+#separador>p {
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 12px;
+}
+.facebook-a {
+    color: #000;
+}
+
+.img-s {
+    height: 25px;
 }
 /*aside--------*/
 aside {
@@ -83,3 +106,11 @@ aside {
     color: #0084ff;
 }
 /*si ya está bien no se sigas moviendo dijo un sabio una vez*/
+/*publicidad-2*/
+#publicidad2-contain1 {
+ background-color: #eac784;
+}
+
+#publicidad2-contain2 {
+    background-color: #efefef;
+}
