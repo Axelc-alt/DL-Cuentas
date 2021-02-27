@@ -143,3 +143,20 @@ aside {
 #publicidad2-contain2 {
     background-color: #efefef;
 }
+/* cerramos */
+.p-cerramos{
+    display: grid;
+    position: relative;
+    margin-top: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+}
+.p__P{
+    margin-bottom: 0 !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: brown;
+
+}
